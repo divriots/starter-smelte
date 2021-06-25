@@ -1,0 +1,31 @@
+{
+  "packages": {
+    "dir": "",
+    "menu": [
+      [
+        "COMPONENTS",
+        [
+          "button"
+        ]
+      ],
+      [
+        "TOKENS",
+        [
+          "typography",
+          "colors",
+          "border",
+          "opacity",
+          "shadows",
+          "spacing",
+          "z-index"
+        ]
+      ],
+      [
+        "DOCKIT",
+        [
+          "smelte"
+        ]
+      ]
+    ]
+  }
+}
