@@ -1,5 +1,6 @@
 import '~/smelte/src/smelte.css';
-import Button from '../src/Button.svelte';
+
+import { Button } from '../';
 
 export const storyDefault = () => Button;
 

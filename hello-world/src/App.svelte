@@ -1,7 +1,9 @@
 <script>
-  import '~/smelte/dist/smelte.css';
+  import '~/smelte/dist/smelte.css'
+  import '~/smelte/dist/gfonts.css'
 
   import { Button } from '~/button'
+  import { ThemeSwitch } from '~/theme-switch'
   
   function sayHi() {
     alert(sentence);
@@ -13,10 +15,7 @@
 </script>
 
 <main>
+  <ThemeSwitch />
   <h1>{sentence}</h1>
   <Button on:click={sayHi} block=true>Click Me!</Button>
 </main>
-
-<style>
-  @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500|Material+Icons&display=swap';
-</style>
