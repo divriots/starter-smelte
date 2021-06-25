@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* === COPYPASTA START === */
 h1,
 .h1 {
   @apply text-5xl font-light;
@@ -209,4 +210,10 @@ tr.selected {
 .code-inline {
   @apply text-sm bg-secondary-50 text-secondary-900 rounded-sm p-1;
   letter-spacing: 0.25px;
+}
+/* === COPYPASTA END === */
+
+/* Smelte Fixes */
+.whitespace-no-wrap {
+  white-space: nowrap;
 }
