@@ -1,8 +1,8 @@
 {
 	"name": "@divriots/starter-smelte",
 	"version": "0.0.0",
-	"description": "",
-	"license": "ISC",
+	"description": "A smelte based design system as a starter kit for Backlight",
+	"license": "MIT",
 	"type": "module",
 	"homepage": "{{ homepage }}",
 	"scripts": {
