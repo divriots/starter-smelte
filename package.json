@@ -1,14 +1,15 @@
 {
-	"name": "@divriots/starter-smelte",
-	"version": "0.0.0",
-	"description": "A smelte based design system as a starter kit for Backlight",
-	"license": "MIT",
-	"type": "module",
-	"homepage": "{{ homepage }}",
-	"scripts": {
-		"serve": "dsd-cli serve U3bRwsh0qncQBY27uPGi --open"
-	},
-	"devDependencies": {
-		"dsd-cli": "latest"
-	}
+  "name": "@divriots/starter-smelte",
+  "version": "0.0.0",
+  "description": "A smelte based design system as a starter kit for Backlight",
+  "license": "MIT",
+  "type": "module",
+  "homepage": "{{ homepage }}",
+  "scripts": {
+    "serve": "npx backlight@latest serve U3bRwsh0qncQBY27uPGi --open"
+  },
+  "dependencies": {
+    "smelte": "^1.1.8",
+    "svelte": "^3.42.5"
+  }
 }
