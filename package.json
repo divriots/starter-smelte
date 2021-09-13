@@ -7,5 +7,9 @@
   "homepage": "{{ homepage }}",
   "scripts": {
     "serve": "npx backlight@latest serve U3bRwsh0qncQBY27uPGi --open"
+  },
+  "dependencies": {
+    "smelte": "^1.1.8",
+    "svelte": "^3.42.5"
   }
 }
