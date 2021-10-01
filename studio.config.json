@@ -3,13 +3,6 @@
     "dir": "",
     "menu": [
       [
-        "COMPONENTS",
-        [
-          "button",
-          "theme-switch"
-        ]
-      ],
-      [
         "TOKENS",
         [
           "typography",
@@ -22,7 +15,13 @@
         ]
       ],
       [
-        "DOCKIT",
+        "COMPONENTS",
+        [
+          "button"
+        ]
+      ],
+      [
+        "BASE",
         [
           "smelte"
         ]

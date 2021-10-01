@@ -2,7 +2,7 @@ import utils from 'smelte/src/utils/style';
 import buildPalette from 'smelte/src/utils/color';
 
 // TOKENS //
-import { darkMode, darkVariants } from '~/smelte';
+import { darkMode, darkVariants } from '~/smelte/src/config';
 import { defaultColors, white, black, gray } from '~/colors';
 import { fontSize, lineHeight } from '~/typography';
 import { width, breakpoints } from '~/spacing';

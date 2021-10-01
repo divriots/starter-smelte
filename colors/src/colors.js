@@ -7,7 +7,3 @@ export const defaultColors = {
   blue: '#2196f3',
   dark: '#212121',
 };
-
-export * from './white';
-export * from './black';
-export * from './gray';

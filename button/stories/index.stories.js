@@ -1,4 +1,4 @@
-import '~/smelte/src/smelte.css';
+import '~/smelte';
 
 import { Button } from '../';
 

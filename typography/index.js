@@ -1,1 +1,2 @@
-export * from './src/index';
+export * from './src/font-size';
+export * from './src/line-height';
